@@ -1,249 +1,295 @@
-FinVerse: AI-Powered Financial Inclusion Platform
-FinVerse is a full-stack prototype of an AI-powered platform designed to unlock financial opportunities for everyone, everywhere.
+# 🌍 **FinVerse: AI-Powered Financial Inclusion Platform**
 
-This project was built to demonstrate a modern, scalable solution to the global challenge of financial exclusion. By leveraging alternative data, artificial intelligence, and community-based finance, FinVerse provides a suite of tools to help users build credit, access capital, and improve their financial literacy.
+> **Empowering the world’s unbanked through data, intelligence, and inclusion.**
 
-🎯 Core Features
-This prototype includes 6 core functional features, a complete authentication flow, and a responsive, modern user interface.
+FinVerse is a **full-stack AI-driven financial inclusion platform prototype** designed to unlock financial opportunities for individuals who are underserved or excluded by traditional banking systems.
+It combines **alternative data**, **AI-powered insights**, and **community-based finance** to enable users to build credit, access affordable capital, and improve financial literacy — all through one unified digital experience.
 
-Secure Authentication: Complete user onboarding with email/password signup, login, and a secure "Forgot Password" flow.
+---
 
-AI Credit Scoring: A proprietary algorithm that generates a fair credit score (300-850) based on alternative data points like utility payments, rent history, and mobile usage.
+Live Demo
 
-AI Financial Advisor: A real-time chat interface powered by the Groq Llama 3 model, providing instant financial advice and guidance.
+🔗 **Deployed on:** [Netlify](https://finverse-prototype.netlify.app/)
 
-Micro-Savings Goals: An interface for users to create, track, and manage their personal savings goals.
+## 🚀 **Project Overview**
 
-P2P Lending Marketplace: A community marketplace where users can view pending loan requests and apply for their own peer-to-peer loans.
+Financial exclusion remains one of the world’s most pressing challenges. FinVerse addresses this by providing a **modern, scalable, and intelligent fintech architecture** that bridges the gap between traditional finance and emerging markets.
 
-Financial Literacy Hub: An interactive quiz system to help users learn about key financial concepts like budgeting and investing.
+This prototype demonstrates how cutting-edge technologies like **AI**, **Groq inference**, and **Supabase** can be combined to create an accessible, inclusive financial ecosystem.
 
-Responsive UI/UX: A modern, polished interface with a responsive sidebar for desktop and a slide-out menu for mobile, ensuring a seamless experience on any device.
+---
 
-3D Visualization: An interactive 3D component on the dashboard to showcase modern frontend capabilities.
+## 🧩 **Core Features**
 
-🛠️ Tech Stack & Versions
-This project is built with a modern, full-stack TypeScript architecture.
+FinVerse offers six core, production-grade features with complete authentication, data persistence, and responsive UI/UX.
 
-Category
+| Feature                           | Description                                                                                                    |
+| --------------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| 🔐 **Secure Authentication**      | Complete onboarding flow — signup, login, password reset, and email verification — powered by Supabase Auth.   |
+| 🤖 **AI Credit Scoring**          | Proprietary algorithm (300–850) using **alternative data** such as rent, utility payments, and mobile usage.   |
+| 💬 **AI Financial Advisor**       | Real-time, chat-based assistant powered by **Groq’s Llama 3 model**, offering financial guidance and insights. |
+| 💰 **Micro-Savings Goals**        | Interactive savings tracker with progress visualization and target management.                                 |
+| 🤝 **P2P Lending Marketplace**    | Community-driven lending ecosystem where users can browse, apply for, or fund peer-to-peer loans.              |
+| 📚 **Financial Literacy Hub**     | Interactive quiz module to improve users’ knowledge on budgeting, saving, and investing.                       |
+| 🧭 **Responsive UI/UX**           | Modern, accessible design using **Tailwind CSS** + **shadcn/ui** with seamless desktop and mobile experiences. |
+| 🪩 **3D Dashboard Visualization** | Real-time 3D components (via React Three Fiber) to display user portfolio data dynamically.                    |
 
-Technology / Library
+---
 
-Version
+## 🛠️ **Tech Stack**
 
-Purpose
+Built with a **TypeScript-first**, **Next.js App Router** architecture for scalability, speed, and developer efficiency.
 
-Framework
+| Category               | Technology                                                              | Version  | Purpose                            |
+| ---------------------- | ----------------------------------------------------------------------- | -------- | ---------------------------------- |
+| **Framework**          | [Next.js](https://nextjs.org/)                                          | 14.2.5   | Full-stack React framework         |
+| **Language**           | TypeScript                                                              | ~5.5.4   | Type safety and maintainability    |
+| **Database / Auth**    | [Supabase](https://supabase.com/)                                       | ~2.44.4  | Postgres + Auth + APIs             |
+| **Styling**            | [Tailwind CSS](https://tailwindcss.com/)                                | ~3.4.4   | Utility-first CSS                  |
+| **UI Components**      | [shadcn/ui](https://ui.shadcn.com/)                                     | —        | Modern, accessible UI primitives   |
+| **AI Integration**     | [Groq SDK](https://groq.com/)                                           | ~0.5.0   | High-speed inference for Llama 3   |
+| **3D Graphics**        | [React Three Fiber / Drei](https://github.com/pmndrs/react-three-fiber) | ~8.16.8  | Declarative 3D scenes in React     |
+| **Forms & Validation** | React Hook Form + Zod                                                   | ~7.52.1  | Reliable and typed form validation |
+| **Animations**         | [Framer Motion](https://www.framer.com/motion/)                         | ~11.3.19 | UI transitions and motion          |
+| **Charts**             | [Recharts](https://recharts.org/)                                       | ~2.12.7  | Interactive data visualization     |
 
-Next.js
+---
 
-14.2.5
+## ⚙️ **Getting Started**
 
-Full-stack React framework (App Router)
+Follow these steps to set up and run FinVerse locally:
 
-Language
+### 1️⃣ Clone the Repository
 
-TypeScript
+```bash
+git clone https://github.com/your-username/finverse.git
+cd finverse
+```
 
-~5.5.4
+### 2️⃣ Install Dependencies
 
-Type safety for scalable development
+This project uses **pnpm** for optimal package management.
 
-Backend
-
-Supabase
-
-~2.44.4
-
-PostgreSQL Database, Auth, and APIs
-
-Styling
-
-Tailwind CSS
-
-~3.4.4
-
-Utility-first CSS framework
-
-UI Components
-
-shadcn/ui
-
-N/A
-
-Accessible and customizable component library
-
-AI Integration
-
-Groq SDK
-
-~0.5.0
-
-High-speed inference for Llama 3
-
-3D Graphics
-
-React Three Fiber / Drei
-
-~8.16.8
-
-Declarative 3D graphics for React
-
-State/Forms
-
-React Hook Form / Zod
-
-~7.52.1
-
-Form management and validation
-
-Animation
-
-Framer Motion
-
-~11.3.19
-
-UI animations and transitions
-
-Charts
-
-Recharts
-
-~2.12.7
-
-Data visualization
-
-🚀 Getting Started
-To run this project locally, follow these steps:
-
-Clone the repository:
-
-git clone [https://github.com/your-username/your-repo.git](https://github.com/your-username/your-repo.git)
-cd finverse-prototype
-
-Install dependencies:
-This project uses pnpm as the package manager.
-
+```bash
 pnpm install
+```
 
-Set up environment variables:
+### 3️⃣ Configure Environment Variables
 
-Create a file named .env.local in the root of the project.
+Create a `.env.local` file in the root directory and add your credentials:
 
-Add your Supabase and Groq API keys:
-
+```bash
 # Supabase
 NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
 NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
 
 # Groq API
 GROQ_API_KEY=your_groq_api_key
+```
 
-Set up the Supabase Database:
-Follow the detailed Database Setup Guide in the section below to create all necessary tables and policies.
+### 4️⃣ Database Setup (Supabase)
 
-Run the development server:
+* Create a new project at [supabase.com](https://supabase.com/).
+* Go to **SQL Editor → New Query** and paste the [Schema Script](#-database-schema).
+* Click **RUN** to create all tables, relationships, and RLS policies.
 
+### 5️⃣ Run the Development Server
+
+```bash
 pnpm dev
+```
 
-Open http://localhost:3000 with your browser to see the result.
+Visit [http://localhost:3000](http://localhost:3000) in your browser.
 
-🗃️ Database Setup Guide
-This project requires a specific database schema on Supabase.
+---
 
-Create a Supabase Project: Go to supabase.com, create a new project, and find your API keys and Project URL in the Project Settings > API section.
+## 🗃️ **Database Schema**
 
-Open the SQL Editor: In your Supabase project dashboard, navigate to the SQL Editor section.
+> Complete SQL setup for Supabase — includes RLS policies and auto-profile creation triggers.
 
-Run the Schema Script: Create a new query and paste the entire SQL script below. This will create all tables, indexes, security policies, and functions needed for the app. Click "RUN".
+<details>
+<summary>📜 View SQL Script</summary>
 
+```sql
 -- Enable UUID extension
 CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
 
--- Create all tables for user data, transactions, loans, etc.
-CREATE TABLE public.profiles (id UUID REFERENCES auth.users(id) ON DELETE CASCADE PRIMARY KEY, email TEXT UNIQUE NOT NULL, full_name TEXT, avatar_url TEXT, phone TEXT, country TEXT DEFAULT 'India', balance DECIMAL(12, 2) DEFAULT 0.00, created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(), updated_at TIMESTAMP WITH TIME ZONE DEFAULT NOW());
-CREATE TABLE public.credit_scores (id UUID DEFAULT uuid_generate_v4() PRIMARY KEY, user_id UUID REFERENCES public.profiles(id) ON DELETE CASCADE, score INTEGER CHECK (score >= 300 AND score <= 850), utility_payment_score INTEGER, mobile_usage_score INTEGER, rent_payment_score INTEGER, ecommerce_score INTEGER, calculated_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(), factors JSONB);
-CREATE TABLE public.transactions (id UUID DEFAULT uuid_generate_v4() PRIMARY KEY, user_id UUID REFERENCES public.profiles(id) ON DELETE CASCADE, type TEXT CHECK (type IN ('credit', 'debit')), amount DECIMAL(10, 2) NOT NULL, category TEXT, description TEXT, status TEXT DEFAULT 'completed', created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW());
-CREATE TABLE public.savings_goals (id UUID DEFAULT uuid_generate_v4() PRIMARY KEY, user_id UUID REFERENCES public.profiles(id) ON DELETE CASCADE, title TEXT NOT NULL, target_amount DECIMAL(10, 2) NOT NULL, current_amount DECIMAL(10, 2) DEFAULT 0.00, deadline DATE, icon TEXT, color TEXT, created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(), updated_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(), completed BOOLEAN DEFAULT FALSE);
-CREATE TABLE public.loans (id UUID DEFAULT uuid_generate_v4() PRIMARY KEY, borrower_id UUID REFERENCES public.profiles(id), lender_id UUID REFERENCES public.profiles(id), amount DECIMAL(10, 2) NOT NULL, interest_rate DECIMAL(5, 2) NOT NULL, duration_months INTEGER NOT NULL, purpose TEXT, status TEXT DEFAULT 'pending' CHECK (status IN ('pending', 'approved', 'active', 'repaid', 'defaulted')), risk_level TEXT CHECK (risk_level IN ('low', 'medium', 'high')), created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(), funded_at TIMESTAMP WITH TIME ZONE, repaid_at TIMESTAMP WITH TIME ZONE);
-CREATE TABLE public.quiz_progress (id UUID DEFAULT uuid_generate_v4() PRIMARY KEY, user_id UUID REFERENCES public.profiles(id) ON DELETE CASCADE, category TEXT NOT NULL, questions_answered INTEGER DEFAULT 0, correct_answers INTEGER DEFAULT 0, badges JSONB DEFAULT '[]'::jsonb, last_attempt TIMESTAMP WITH TIME ZONE DEFAULT NOW());
-CREATE TABLE public.chat_history (id UUID DEFAULT uuid_generate_v4() PRIMARY KEY, user_id UUID REFERENCES public.profiles(id) ON DELETE CASCADE, message TEXT NOT NULL, role TEXT CHECK (role IN ('user', 'assistant')), created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW());
+-- Profiles
+CREATE TABLE public.profiles (
+  id UUID REFERENCES auth.users(id) ON DELETE CASCADE PRIMARY KEY,
+  email TEXT UNIQUE NOT NULL,
+  full_name TEXT,
+  avatar_url TEXT,
+  phone TEXT,
+  country TEXT DEFAULT 'India',
+  balance DECIMAL(12,2) DEFAULT 0.00,
+  created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
+  updated_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
+);
 
--- Enable Row Level Security and create policies
+-- Credit Scores
+CREATE TABLE public.credit_scores (
+  id UUID DEFAULT uuid_generate_v4() PRIMARY KEY,
+  user_id UUID REFERENCES public.profiles(id) ON DELETE CASCADE,
+  score INTEGER CHECK (score >= 300 AND score <= 850),
+  utility_payment_score INTEGER,
+  mobile_usage_score INTEGER,
+  rent_payment_score INTEGER,
+  ecommerce_score INTEGER,
+  calculated_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
+  factors JSONB
+);
+
+-- Transactions
+CREATE TABLE public.transactions (
+  id UUID DEFAULT uuid_generate_v4() PRIMARY KEY,
+  user_id UUID REFERENCES public.profiles(id) ON DELETE CASCADE,
+  type TEXT CHECK (type IN ('credit', 'debit')),
+  amount DECIMAL(10,2) NOT NULL,
+  category TEXT,
+  description TEXT,
+  status TEXT DEFAULT 'completed',
+  created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
+);
+
+-- Savings Goals
+CREATE TABLE public.savings_goals (
+  id UUID DEFAULT uuid_generate_v4() PRIMARY KEY,
+  user_id UUID REFERENCES public.profiles(id) ON DELETE CASCADE,
+  title TEXT NOT NULL,
+  target_amount DECIMAL(10,2) NOT NULL,
+  current_amount DECIMAL(10,2) DEFAULT 0.00,
+  deadline DATE,
+  icon TEXT,
+  color TEXT,
+  created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
+  updated_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
+  completed BOOLEAN DEFAULT FALSE
+);
+
+-- Loans
+CREATE TABLE public.loans (
+  id UUID DEFAULT uuid_generate_v4() PRIMARY KEY,
+  borrower_id UUID REFERENCES public.profiles(id),
+  lender_id UUID REFERENCES public.profiles(id),
+  amount DECIMAL(10,2) NOT NULL,
+  interest_rate DECIMAL(5,2) NOT NULL,
+  duration_months INTEGER NOT NULL,
+  purpose TEXT,
+  status TEXT DEFAULT 'pending' CHECK (status IN ('pending','approved','active','repaid','defaulted')),
+  risk_level TEXT CHECK (risk_level IN ('low','medium','high')),
+  created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
+  funded_at TIMESTAMP WITH TIME ZONE,
+  repaid_at TIMESTAMP WITH TIME ZONE
+);
+
+-- Financial Literacy Quiz Progress
+CREATE TABLE public.quiz_progress (
+  id UUID DEFAULT uuid_generate_v4() PRIMARY KEY,
+  user_id UUID REFERENCES public.profiles(id) ON DELETE CASCADE,
+  category TEXT NOT NULL,
+  questions_answered INTEGER DEFAULT 0,
+  correct_answers INTEGER DEFAULT 0,
+  badges JSONB DEFAULT '[]'::jsonb,
+  last_attempt TIMESTAMP WITH TIME ZONE DEFAULT NOW()
+);
+
+-- Chat History
+CREATE TABLE public.chat_history (
+  id UUID DEFAULT uuid_generate_v4() PRIMARY KEY,
+  user_id UUID REFERENCES public.profiles(id) ON DELETE CASCADE,
+  message TEXT NOT NULL,
+  role TEXT CHECK (role IN ('user','assistant')),
+  created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
+);
+
+-- Enable RLS & Policies
 ALTER TABLE public.profiles ENABLE ROW LEVEL SECURITY;
 CREATE POLICY "Users can manage their own profile" ON public.profiles FOR ALL USING (auth.uid() = id);
+
 ALTER TABLE public.credit_scores ENABLE ROW LEVEL SECURITY;
 CREATE POLICY "Users can manage their own credit scores" ON public.credit_scores FOR ALL USING (auth.uid() = user_id);
+
 ALTER TABLE public.transactions ENABLE ROW LEVEL SECURITY;
 CREATE POLICY "Users can manage their own transactions" ON public.transactions FOR ALL USING (auth.uid() = user_id);
+
 ALTER TABLE public.savings_goals ENABLE ROW LEVEL SECURITY;
 CREATE POLICY "Users can manage their own savings goals" ON public.savings_goals FOR ALL USING (auth.uid() = user_id);
+
 ALTER TABLE public.loans ENABLE ROW LEVEL SECURITY;
-CREATE POLICY "Users can view loans" ON public.loans FOR SELECT USING ((status = 'pending' AND auth.role() = 'authenticated') OR (auth.uid() = borrower_id OR auth.uid() = lender_id));
-CREATE POLICY "Users can create loan requests" ON public.loans FOR INSERT WITH CHECK (auth.uid() = borrower_id);
+CREATE POLICY "Users can view loans" ON public.loans FOR SELECT USING ((status='pending' AND auth.role()='authenticated') OR (auth.uid()=borrower_id OR auth.uid()=lender_id));
+CREATE POLICY "Users can create loans" ON public.loans FOR INSERT WITH CHECK (auth.uid()=borrower_id);
+
 ALTER TABLE public.quiz_progress ENABLE ROW LEVEL SECURITY;
-CREATE POLICY "Users can manage their own quiz progress" ON public.quiz_progress FOR ALL USING (auth.uid() = user_id);
+CREATE POLICY "Users can manage their quiz progress" ON public.quiz_progress FOR ALL USING (auth.uid() = user_id);
+
 ALTER TABLE public.chat_history ENABLE ROW LEVEL SECURITY;
-CREATE POLICY "Users can manage their own chat history" ON public.chat_history FOR ALL USING (auth.uid() = user_id);
+CREATE POLICY "Users can manage their chat history" ON public.chat_history FOR ALL USING (auth.uid() = user_id);
 
--- Create function and trigger to auto-create a profile on new user signup
-CREATE OR REPLACE FUNCTION public.handle_new_user() RETURNS TRIGGER LANGUAGE plpgsql SECURITY DEFINER AS $$BEGIN INSERT INTO public.profiles (id, email) VALUES (new.id, new.email); RETURN new; END;$$;
-CREATE OR REPLACE TRIGGER on_auth_user_created AFTER INSERT ON auth.users FOR EACH ROW EXECUTE PROCEDURE public.handle_new_user();
+-- Auto-create profile on signup
+CREATE OR REPLACE FUNCTION public.handle_new_user() RETURNS TRIGGER LANGUAGE plpgsql SECURITY DEFINER AS $$
+BEGIN
+  INSERT INTO public.profiles (id, email) VALUES (new.id, new.email);
+  RETURN new;
+END;
+$$;
 
-📝 Implementation Steps
-This prototype was built following a structured, feature-driven plan.
+CREATE TRIGGER on_auth_user_created
+AFTER INSERT ON auth.users
+FOR EACH ROW EXECUTE PROCEDURE public.handle_new_user();
+```
 
-Project Setup:
+</details>
 
-Initialized a Next.js 14 project with TypeScript and Tailwind CSS.
+---
 
-Installed all necessary dependencies for UI, data, AI, and 3D graphics.
+## 🧱 **Implementation Overview**
 
-Configured shadcn/ui and added base components.
+| Phase                            | Description                                                                                       |
+| -------------------------------- | ------------------------------------------------------------------------------------------------- |
+| **1. Project Setup**             | Initialized a Next.js 14 + TypeScript app, configured Tailwind and shadcn/ui, added dependencies. |
+| **2. Database Architecture**     | Executed full schema and RLS setup in Supabase.                                                   |
+| **3. Core Feature Development**  | Built authentication, dashboards, and all AI + finance modules.                                   |
+| **4. Polishing & UI Refinement** | Added mobile responsiveness, loading states, and error handling.                                  |
+| **5. Deployment**                | Deployed on **Netlify** with environment variables configured for production.                     |
 
-Set up environment variables for API keys.
+---
 
-Database Architecture:
+## 🌟 **Future Enhancements**
 
-Executed the SQL script (above) on Supabase to create the entire database schema and security policies.
+| Enhancement                        | Description                                                   |
+| ---------------------------------- | ------------------------------------------------------------- |
+| 💳 **Payment Gateway Integration** | Integrate **Stripe** or **Razorpay** for real transactions.   |
+| 📊 **Dynamic 3D Visuals**          | Link 3D dashboard assets to live financial data.              |
+| 🧠 **Quiz Backend**                | Store and manage quiz questions and user scores in Supabase.  |
+| 🔔 **Realtime Notifications**      | Push notifications via **Supabase Realtime** for key updates. |
+| 👤 **User Profile Pages**          | Allow users to view and update profile details.               |
+| 🌗 **Dark Mode**                   | Implement global light/dark theme toggle.                     |
 
-Core Feature Development:
+---
 
-Authentication: Built the Signup, Login, Forgot Password, and email confirmation flows.
+## 🧭 **Project Philosophy**
 
-Dashboard: Created the main user dashboard to serve as a hub, fetching and displaying live user data.
+FinVerse was built with three guiding principles:
 
-AI Credit Scoring: Implemented the frontend form and backend API route to calculate and save an alternative credit score.
+1. **Accessibility:** Everyone, regardless of geography or income, deserves access to financial opportunity.
+2. **Transparency:** Open architecture, fair algorithms, and user control of data.
+3. **Education:** Empower users through knowledge, not just transactions.
 
-AI Financial Advisor: Built the chat interface and the API route to connect with the Groq API.
+---
 
-Savings Goals: Developed the UI to display goals and a modal with a Server Action to create new ones.
+## 💡 **Inspiration**
 
-P2P Lending: Built the marketplace view and a modal with a Server Action for users to apply for loans.
+FinVerse is inspired by the **United Nations Sustainable Development Goals (SDG 8 & 10)** — promoting **economic growth** and **reducing inequalities** through financial inclusion and digital innovation.
 
-Financial Literacy Quiz: Created a client-side interactive quiz as a proof-of-concept.
+---
 
-Polishing and Finalization:
 
-Responsive Navigation: Added a persistent desktop sidebar and a responsive mobile header with a slide-out menu.
+---
 
-Landing Page: Built a professional, welcoming landing page for new visitors.
+## 🪪 **License**
 
-UI/UX Refinements: Added loading states and fixed various layout and styling issues to create a smoother user experience.
+This project is released under the **MIT License** — feel free to use, modify, and build upon it with proper attribution.
 
-Deployment: Configured the project for production and deployed it live via Netlify.
+---
 
-✨ Future Enhancements
-This prototype serves as a strong foundation. Future development could include:
-
-Payment Gateway Integration: Connecting a service like Stripe or Razorpay to handle real money transfers for "Add Money" and "Fund Loan" actions.
-
-Data-Driven 3D Visualization: Linking the 3D asset component to a user's actual portfolio data.
-
-Full Quiz System: Building out the backend for the quiz, storing questions and user progress in the database.
-
-Notifications: Implementing real-time notifications (e.g., "Your loan has been funded!") using Supabase Realtime.
-
-User Profiles: Creating a dedicated page for users to view and edit their profile information.
-
-Dark Mode: Implementing a theme switcher to toggle between light and dark modes.
