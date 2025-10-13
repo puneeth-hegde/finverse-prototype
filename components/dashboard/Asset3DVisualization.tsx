@@ -3,9 +3,13 @@
 import { useRef } from 'react'
 import { Canvas, useFrame } from '@react-three/fiber'
 import { OrbitControls, Box, Sphere } from '@react-three/drei'
+import { Mesh } from 'three'
+
 
 function Shape({ position, color, shape }: { position: [number, number, number], color: string, shape: 'box' | 'sphere' }) {
-  const ref = useRef<any>()
+  // This is the line that was fixed: useRef<Mesh>(null!)
+  const ref = useRef<Mesh>(null!)
+
   useFrame((_, delta) => {
     if (ref.current) {
       ref.current.rotation.x += delta * 0.2
