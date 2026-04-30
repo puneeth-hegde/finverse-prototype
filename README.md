@@ -1,4 +1,4 @@
-# 🌍 **FinVerse: AI-Powered Financial Inclusion Platform**
+# **FinVerse: AI-Powered Financial Inclusion Platform**
 
 > **Empowering the world’s unbanked through data, intelligence, and inclusion.**
 
@@ -7,11 +7,11 @@ It combines **alternative data**, **AI-powered insights**, and **community-based
 
 ---
 
-Live Demo
+## Live Demo
 
-🔗 **Deployed on:** [Netlify](https://finverse-prototype.netlify.app/)
+**Deployed on:** [Netlify](https://finverse-prototype.netlify.app/)
 
-## 🚀 **Project Overview**
+## **Project Overview**
 
 Financial exclusion remains one of the world’s most pressing challenges. FinVerse addresses this by providing a **modern, scalable, and intelligent fintech architecture** that bridges the gap between traditional finance and emerging markets.
 
@@ -19,24 +19,24 @@ This prototype demonstrates how cutting-edge technologies like **AI**, **Groq in
 
 ---
 
-## 🧩 **Core Features**
+## **Core Features**
 
 FinVerse offers six core, production-grade features with complete authentication, data persistence, and responsive UI/UX.
 
 | Feature                           | Description                                                                                                    |
 | --------------------------------- | -------------------------------------------------------------------------------------------------------------- |
-| 🔐 **Secure Authentication**      | Complete onboarding flow — signup, login, password reset, and email verification — powered by Supabase Auth.   |
-| 🤖 **AI Credit Scoring**          | Proprietary algorithm (300–850) using **alternative data** such as rent, utility payments, and mobile usage.   |
-| 💬 **AI Financial Advisor**       | Real-time, chat-based assistant powered by **Groq’s Llama 3 model**, offering financial guidance and insights. |
-| 💰 **Micro-Savings Goals**        | Interactive savings tracker with progress visualization and target management.                                 |
-| 🤝 **P2P Lending Marketplace**    | Community-driven lending ecosystem where users can browse, apply for, or fund peer-to-peer loans.              |
-| 📚 **Financial Literacy Hub**     | Interactive quiz module to improve users’ knowledge on budgeting, saving, and investing.                       |
-| 🧭 **Responsive UI/UX**           | Modern, accessible design using **Tailwind CSS** + **shadcn/ui** with seamless desktop and mobile experiences. |
-| 🪩 **3D Dashboard Visualization** | Real-time 3D components (via React Three Fiber) to display user portfolio data dynamically.                    |
+| **Secure Authentication**      | Complete onboarding flow — signup, login, password reset, and email verification — powered by Supabase Auth.   |
+| **AI Credit Scoring**          | Proprietary algorithm (300–850) using **alternative data** such as rent, utility payments, and mobile usage.   |
+| **AI Financial Advisor**       | Real-time, chat-based assistant powered by **Groq’s Llama 3 model**, offering financial guidance and insights. |
+| **Micro-Savings Goals**        | Interactive savings tracker with progress visualization and target management.                                 |
+| **P2P Lending Marketplace**    | Community-driven lending ecosystem where users can browse, apply for, or fund peer-to-peer loans.              |
+| **Financial Literacy Hub**     | Interactive quiz module to improve users’ knowledge on budgeting, saving, and investing.                       |
+| **Responsive UI/UX**           | Modern, accessible design using **Tailwind CSS** + **shadcn/ui** with seamless desktop and mobile experiences. |
+| **3D Dashboard Visualization** | Real-time 3D components (via React Three Fiber) to display user portfolio data dynamically.                    |
 
 ---
 
-## 🛠️ **Tech Stack**
+## **Tech Stack**
 
 Built with a **TypeScript-first**, **Next.js App Router** architecture for scalability, speed, and developer efficiency.
 
@@ -55,18 +55,18 @@ Built with a **TypeScript-first**, **Next.js App Router** architecture for scala
 
 ---
 
-## ⚙️ **Getting Started**
+## **Getting Started**
 
 Follow these steps to set up and run FinVerse locally:
 
-### 1️⃣ Clone the Repository
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/your-username/finverse.git
 cd finverse
 ```
 
-### 2️⃣ Install Dependencies
+### 2. Install Dependencies
 
 This project uses **pnpm** for optimal package management.
 
@@ -74,7 +74,7 @@ This project uses **pnpm** for optimal package management.
 pnpm install
 ```
 
-### 3️⃣ Configure Environment Variables
+### 3. Configure Environment Variables
 
 Create a `.env.local` file in the root directory and add your credentials:
 
@@ -87,13 +87,13 @@ NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
 GROQ_API_KEY=your_groq_api_key
 ```
 
-### 4️⃣ Database Setup (Supabase)
+### 4. Database Setup (Supabase)
 
 * Create a new project at [supabase.com](https://supabase.com/).
 * Go to **SQL Editor → New Query** and paste the [Schema Script](#-database-schema).
 * Click **RUN** to create all tables, relationships, and RLS policies.
 
-### 5️⃣ Run the Development Server
+### 5. Run the Development Server
 
 ```bash
 pnpm dev
@@ -103,12 +103,12 @@ Visit [http://localhost:3000](http://localhost:3000) in your browser.
 
 ---
 
-## 🗃️ **Database Schema**
+## **Database Schema**
 
 > Complete SQL setup for Supabase — includes RLS policies and auto-profile creation triggers.
 
 <details>
-<summary>📜 View SQL Script</summary>
+<summary>View SQL Script</summary>
 
 ```sql
 -- Enable UUID extension
@@ -243,7 +243,7 @@ FOR EACH ROW EXECUTE PROCEDURE public.handle_new_user();
 
 ---
 
-## 🧱 **Implementation Overview**
+## **Implementation Overview**
 
 | Phase                            | Description                                                                                       |
 | -------------------------------- | ------------------------------------------------------------------------------------------------- |
@@ -255,20 +255,20 @@ FOR EACH ROW EXECUTE PROCEDURE public.handle_new_user();
 
 ---
 
-## 🌟 **Future Enhancements**
+## **Future Enhancements**
 
 | Enhancement                        | Description                                                   |
 | ---------------------------------- | ------------------------------------------------------------- |
-| 💳 **Payment Gateway Integration** | Integrate **Stripe** or **Razorpay** for real transactions.   |
-| 📊 **Dynamic 3D Visuals**          | Link 3D dashboard assets to live financial data.              |
-| 🧠 **Quiz Backend**                | Store and manage quiz questions and user scores in Supabase.  |
-| 🔔 **Realtime Notifications**      | Push notifications via **Supabase Realtime** for key updates. |
-| 👤 **User Profile Pages**          | Allow users to view and update profile details.               |
-| 🌗 **Dark Mode**                   | Implement global light/dark theme toggle.                     |
+| **Payment Gateway Integration** | Integrate **Stripe** or **Razorpay** for real transactions.   |
+| **Dynamic 3D Visuals**          | Link 3D dashboard assets to live financial data.              |
+| **Quiz Backend**                | Store and manage quiz questions and user scores in Supabase.  |
+| **Realtime Notifications**      | Push notifications via **Supabase Realtime** for key updates. |
+| **User Profile Pages**          | Allow users to view and update profile details.               |
+| **Dark Mode**                   | Implement global light/dark theme toggle.                     |
 
 ---
 
-## 🧭 **Project Philosophy**
+## **Project Philosophy**
 
 FinVerse was built with three guiding principles:
 
@@ -278,7 +278,7 @@ FinVerse was built with three guiding principles:
 
 ---
 
-## 💡 **Inspiration**
+## **Inspiration**
 
 FinVerse is inspired by the **United Nations Sustainable Development Goals (SDG 8 & 10)** — promoting **economic growth** and **reducing inequalities** through financial inclusion and digital innovation.
 
@@ -287,7 +287,7 @@ FinVerse is inspired by the **United Nations Sustainable Development Goals (SDG 
 
 ---
 
-## 🪪 **License**
+## **License**
 
 This project is released under the **MIT License** — feel free to use, modify, and build upon it with proper attribution.
 
