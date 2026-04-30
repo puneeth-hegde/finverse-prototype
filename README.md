@@ -62,7 +62,7 @@ Follow these steps to set up and run FinVerse locally:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/finverse.git
+git clone https://github.com/puneeth-hegde/finverse-prototype.git
 cd finverse
 ```
 
